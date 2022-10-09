@@ -36,7 +36,6 @@ body {
 
 .nav-header {
   display: flex;
-
   flex-direction: row;
   background-color: var(--header-bg-color);
 }
@@ -62,7 +61,6 @@ body {
 .nav-list {
   display: flex;
   margin-top: 0;
-
   margin-bottom: 0;
   padding-left: 0;
   align-items: center;
@@ -78,8 +76,12 @@ body {
 
 .link-nav:hover,
 .link-poc:hover,
+.icon-enveloppe:hover,
+.icon-smartphone:hover,
 .link-nav:focus,
-.link-poc:focus {
+.link-poc:focus,
+.icon-enveloppe:focus,
+.icon-smartphone:focus {
   color: var(--accent-color);
 }
 
@@ -102,11 +104,13 @@ body {
 }
 
 .poc-item {
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .link-poc {
   display: flex;
+  margin-left: auto;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14px;
@@ -117,14 +121,51 @@ body {
   color: var(--primary-text-color);
 }
 
+.icon-envelope {
+  display: flex;
+  flex-direction: row;
+  width: 16px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 10px;
+  background-image: url(../images/envelope.svg);
+}
+
+.icon-smartphone {
+  display: flex;
+  flex-direction: row;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../images/smartphone.svg);
+}
+
 /* Main */
 
 /* Герой */
 .hero-container {
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 200px;
   padding-bottom: 200px;
+  min-width: 1600px;
+  min-height: 600px;
+  margin-right: auto;
+  margin-left: auto;
 
   background: #2f303a;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .hero {
