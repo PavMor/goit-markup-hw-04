@@ -237,7 +237,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.icon-antenna {
+.antenna {
   margin-bottom: 30px;
   margin-right: 30px;
   padding: 25px 102.34px;
@@ -246,12 +246,12 @@ body {
   background-color: #f5f4fa;
 }
 
-.icon-antenna-1 {
-  width: 65.32px;
+.icon-antenna {
+  width: 70px;
   height: 70px;
 }
 
-.icon-clock {
+.clock {
   margin-bottom: 30px;
   margin-right: 30px;
   padding: 25px 101.54px;
@@ -260,12 +260,12 @@ body {
   background-color: #f5f4fa;
 }
 
-.icon-clock-1 {
-  width: 66.96px;
+.icon-clock {
+  width: 70px;
   height: 70px;
 }
 
-.icon-diagram {
+.diagram {
   margin-bottom: 30px;
   margin-right: 30px;
   padding: 33.2px 100px 33.11px;
@@ -274,12 +274,12 @@ body {
   background-color: #f5f4fa;
 }
 
-.icon-diagram-1 {
+.icon-diagram {
   width: 70px;
-  height: 53.69px;
+  height: 70px;
 }
 
-.icon-astronaut {
+.astronaut {
   margin-bottom: 30px;
   padding: 25px 100px;
   width: 270px;
@@ -287,9 +287,9 @@ body {
   background-color: #f5f4fa;
 }
 
-.icon-astronaut-1 {
-  width: 54.83px;
-  height: 60.66px;
+.icon-astronaut {
+  width: 70px;
+  height: 70px;
 }
 
 /* subsection projects */
@@ -423,32 +423,32 @@ body {
 .websites-links {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
-  margin-bottom: 30px;
-  gap: 10px;
+  padding-top: 16px;
+  padding-bottom: 30px;
+  gap: 34px;
 }
 
 .icon-instagram {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   color: #afb1b8;
 }
 
 .icon-twitter {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   color: #afb1b8;
 }
 
 .icon-facebook {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   color: #afb1b8;
 }
 
 .icon-linkedin {
-  width: 44px;
-  height: 44px;
+  width: 20px;
+  height: 20px;
   color: #afb1b8;
 }
 
