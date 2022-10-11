@@ -12,6 +12,10 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+li {
+  list-style: none;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -441,6 +445,7 @@ body {
   border: none;
   border-radius: 50%;
   background-color: #ffffff;
+  fill: #afb1b8;
   cursor: pointer;
 }
 
@@ -471,6 +476,7 @@ body {
   height: 20px;
 }
 
+/* Секція - Постійні клієнти */
 .partners {
   margin-top: 0;
   margin-left: 0;
@@ -500,6 +506,7 @@ body {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
+  fill: #afb1b8;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -541,7 +548,9 @@ body {
 }
 
 /* Footer */
-footer {
+
+.footer-section {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
@@ -604,8 +613,33 @@ footer {
   color: var(--accent-color);
 }
 
-li {
-  list-style-type: none;
+.links-footer {
+  display: flex;
+  margin-left: 96.18px;
+  align-items: center;
+}
+
+.websites-footer {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  gap: 10px;
+}
+
+.websites-links-footer {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+  cursor: pointer;
+}
+
+.websites-links-footer:hover,
+.websites-links-footer:focus {
+  background-color: var(--accent-color);
+  fill: #ffffff;
 }
 
 /* portfolio.html */
