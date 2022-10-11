@@ -355,6 +355,7 @@ body {
 
 .team-cards-list {
   display: flex;
+  flex-direction: row;
   margin: 0;
   padding-left: 0;
 }
@@ -420,36 +421,55 @@ body {
   color: var(--primary-text-color);
 }
 
-.websites-links {
+.websites {
+  display: flex;
+  justify-content: center;
+}
+
+.websites {
   display: flex;
   justify-content: center;
   padding-top: 16px;
   padding-bottom: 30px;
-  gap: 34px;
+  gap: 10px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.websites-links {
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.websites-links:hover,
+.websites-links:focus {
+  background-color: var(--accent-color);
+  fill: #ffffff;
 }
 
 .icon-instagram {
   width: 20px;
   height: 20px;
-  color: #afb1b8;
 }
 
 .icon-twitter {
   width: 20px;
   height: 20px;
-  color: #afb1b8;
 }
 
 .icon-facebook {
   width: 20px;
   height: 20px;
-  color: #afb1b8;
+  color: var(--primary-text-color);
 }
 
 .icon-linkedin {
   width: 20px;
   height: 20px;
-  color: #afb1b8;
 }
 
 /* Footer */
