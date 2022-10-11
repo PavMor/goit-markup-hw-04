@@ -388,7 +388,6 @@ body {
 .team-cards h2 {
   margin-top: 0;
   margin-bottom: 50px;
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -470,6 +469,75 @@ body {
 .icon-linkedin {
   width: 20px;
   height: 20px;
+}
+
+.partners {
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.partners h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.partners-list {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-left: 0;
+  gap: 30px;
+}
+
+.icon-group {
+  padding: 16px 32px;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.icon-group:hover,
+.icon-group:focus {
+  border-color: var(--accent-color);
+  fill: var(--accent-color);
+}
+
+.icon-group-1 {
+  width: 106px;
+  height: 60px;
+}
+
+.icon-group-2 {
+  width: 106px;
+  height: 60px;
+}
+
+.icon-group-3 {
+  width: 106px;
+  height: 60px;
+}
+
+.icon-group-4 {
+  width: 106px;
+  height: 60px;
+}
+
+.icon-group-5 {
+  width: 106px;
+  height: 60px;
+}
+
+.icon-group-6 {
+  width: 106px;
+  height: 60px;
 }
 
 /* Footer */
